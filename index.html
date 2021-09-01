@@ -7,17 +7,16 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css">
 
-    <title>My Portfolio</title>
+    <title>Ardan Restu N</title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#home">Sandhika Galih</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,10 +26,13 @@
               <a class="nav-link" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#about">Profile</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -41,28 +43,61 @@
     <div class="jumbotron" id="home">
       <div class="container">
         <div class="text-center">
-          <img src="img/profile1.png" class="rounded-circle img-thumbnail">
-          <h1 class="display-4">Sandhika Galih</h1>
-          <h3 class="lead">Lecturer | Programmer | Youtuber</h3>
+          <img src="img/profile4.JPG" class="rounded-circle img-thumbnail">
+          <h1 class="display-4">Ardan Restu Nugroho</h1>
+          <h3 class="lead">Programmer</h3>
         </div>
       </div>
     </div>
 
 
     <!-- About -->
-    <section class="about" id="about">
+    <section class="about">
       <div class="container">
         <div class="row mb-4">
+          <div class="col text-center" id="about">
+            <h2>Profile</h2>
+            <hr>
+            <p class="text-left"><b>Age</b> : 19 years old</p>
+            <p class="text-left"><b>Born</b> : Purworejo,Jawa Tengah,Indonesia</p>
+           <p class="text-left">Iam very passionate about learning new things and developing my talents. I am sure that with my abilities, I can give interesting ideas</p>
+          </div>
           <div class="col text-center">
-            <h2>About</h2>
+            <h2>Educational</h2>
+            <hr>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">No</th>
+                  <th scope="col">School</th>
+                  <th scope="col">Graduated Year</th>
+                  <th scope="col">Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>SMK Negeri 1 Bantul</td>
+                  <td>2018-2021</td>
+                  <td><a class="btn btn-success" href="https://goo.gl/maps/ebSZvjWyk5bLeyL68" role="button">Graduate</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>SMP Negeri 1 Banguntapan</td>
+                  <td>2015-2018</td>
+                  <td><a class="btn btn-success" href="https://goo.gl/maps/DfbP4rFWsPuqF5w6A" role="button">Graduate</a></td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>SD Negeri Baturetno</td>
+                  <td>2009-2015</td>
+                  <td><a class="btn btn-success" href="https://goo.gl/maps/K8opZJKKKPHYKz1J6" role="button">Graduate</a></td>
+                </tr>
+              </tbody>
+            </table>
+            
+
           </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
-          </div>
-          <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
           </div>
         </div>
       </div>
@@ -82,7 +117,8 @@
             <div class="card">
               <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Website Towing Service - Wordpress with customize </p>
+                <p><a class="btn btn-success" href="https://cahyotowing.com" role="button">Go check Website</a></p>
               </div>
             </div>
           </div>
@@ -91,47 +127,161 @@
             <div class="card">
               <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Website Travel & Tour Service - Wordpress with customize</p>
+                <p><a class="btn btn-success" href="https://mairatour.com" role="button">Go check Website</a></p>
               </div>
             </div>
           </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>   
         </div>
+      </div>
+    </section>
 
-        <div class="row">
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+    <section class="contact">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center" id="contact">
+            <br>
+            <h2>Skills</h2>
+            <br>
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/wordpress.png" alt="wordpress" width="25" height="25" ></th>
+                  <td>Wordpress</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/html.png" alt="html" width="25" height="25" ></th>
+                  <td>HTML</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>4/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/css.png" alt="css" width="25" height="25"></th>
+                  <td>CSS</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>4/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/php.png" alt="php" width="25" height="25"></th>
+                  <td>PHP</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>4/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/mysql.png" alt="mysql" width="25" height="25"></th>
+                  <td>MYSQL</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/js.png" alt="js" width="25" height="25"></th>
+                  <td>JavaScript</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/codeigniter.svg" alt="mysql" width="25" height="25"></th>
+                  <td>Code Igniter</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/dart.png" alt="dart" width="25" height="25"></th>
+                  <td>Dart</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"><img src="img/thumbs/flutter.png" alt="flutter" width="25" height="25"></th>
+                  <td>Flutter</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td>Object Oriented Programming</td>
+                  <td><span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star "></span>
+                    <span class="fa fa-star"></span></td>
+                  <td>3/5</td>
+                </tr>
+              </tbody>
+            </table>
+            
             </div>
-          </div> 
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
-              </div>
-            </div>
+          <div class="col text-center">
+            <br>
+            <h2>Contact</h2>
+            <br>
+            <table class="table table-borderless">
+              <tbody>
+                <tr>
+                  <th scope="row"></th>
+                  <td><a href="https://wa.me/+6281227945941" role="button"><img src="img/thumbs/wa.png" alt="wa" width="35" height="35"></a></td>
+                  <td>Whatsapp</td>
+                  <td>+6281227945941</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td><a href="https://web.facebook.com/ardan.arn" role="button"><img src="img/thumbs/fb.png" alt="fb" width="35" height="35"></a></td>
+                  <td>Facebook</td>
+                  <td>Ardan Restu Nugroho</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td><a href="https://instagram.com/ardanrestun" role="button"><img src="img/thumbs/ig.png" alt="ig" width="35" height="35"></a></td>
+                  <td>instagram</td>
+                  <td>ardanrestun</td>
+                </tr>
+                <tr>
+                  <th scope="row"></th>
+                  <td><a href="https://twitter.com/ardanrestun" role="button"><img src="img/thumbs/twt.png" alt="twt" width="35" height="35"></a></td>
+                  <td>Twitter</td>
+                  <td>ardanrestun</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-
-          <div class="col-md mb-4">
-            <div class="card">
-              <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -139,67 +289,14 @@
 
 
     <!-- Contact -->
-    <section class="contact" id="contact">
-      <div class="container">
-        <div class="row pt-4 mb-4">
-          <div class="col text-center">
-            <h2>Contact</h2>
-          </div>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-4">
-            <div class="card bg-primary text-white mb-4 text-center">
-              <div class="card-body">
-                <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-            
-            <ul class="list-group mb-4">
-              <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">My Office</li>
-              <li class="list-group-item">Jl. Setiabudhi No. 193, Bandung</li>
-              <li class="list-group-item">West Java, Indonesia</li>
-            </ul>
-          </div>
-
-          <div class="col-lg-6">
-            
-            <form>
-              <div class="form-group">
-                <label for="nama">Nama</label>
-                <input type="text" class="form-control" id="nama">
-              </div>
-              <div class="form-group">
-                <label for="email">Email</label>
-                <input type="text" class="form-control" id="email">
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="text" class="form-control" id="phone">
-              </div>
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="3"></textarea>
-              </div>
-              <div class="form-group">
-                <button type="button" class="btn btn-primary">Send Message</button>
-              </div>
-            </form>
-
-          </div>
-        </div>
-      </div>
-    </section>
-
+    
 
     <!-- footer -->
     <footer class="bg-dark text-white mt-5">
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p>Copyright &copy; 2018.</p>
+            <p>Copyright &copy;2021 Ardan Restu Nugroho | All Rights Reserved</p>
           </div>
         </div>
       </div>
